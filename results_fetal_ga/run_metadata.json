@@ -1,0 +1,34 @@
+{
+  "experiment_date_utc": "2026-11-21T17:52:29.778258+00:00",
+  "seed": 42,
+  "device": "cuda",
+  "image_size": 224,
+  "batch_size": 16,
+  "training_epochs": {
+    "resnet18": 12,
+    "attention_resnet50": 15
+  },
+  "dataset_split": {
+    "training_samples": 495,
+    "validation_samples": 106,
+    "test_samples": 107
+  },
+  "selected_model": "Multi-Plane Attention ResNet-50",
+  "final_checkpoint": "attention_resnet50_finetuned_best.pt",
+  "selection_rule": "Minimum validation MAE",
+  "test_metrics": {
+    "MAE_days": 9.303997993469238,
+    "RMSE_days": 12.962465533042412,
+    "R2": 0.8760420680046082,
+    "MAE_weeks": 1.3291425704956055,
+    "Lin_CCC": 0.9367104768753052
+  },
+  "evaluation": [
+    "Final held-out test evaluation",
+    "Grad-CAM explainability",
+    "Gestational-age-band error stratification",
+    "Bootstrap confidence intervals",
+    "Attention weight inspection"
+  ],
+  "attention_architecture": "Multi-plane attention ResNet-50; three 2D MRI planes used as separate inputs"
+}

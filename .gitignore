@@ -1,0 +1,36 @@
+## Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+fetal-brain.zip
+extracted/
+dataset/
+data/
+*.nii
+*.nii.gz
+*.dcm
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+results/
+runs/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+

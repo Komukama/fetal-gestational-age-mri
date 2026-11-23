@@ -1,0 +1,8 @@
+{
+  "selected_model": "Multi-Plane Attention ResNet-50",
+  "MAE_days": 9.74801254272461,
+  "RMSE_days": 13.360408060386444,
+  "R2": 0.8683143258094788,
+  "Lin_CCC": 0.9352347254753113,
+  "MAE_weeks": 1.3925732203892298
+}

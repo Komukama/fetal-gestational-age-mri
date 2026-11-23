@@ -1,0 +1,26 @@
+# Core scientific Python packages
+numpy
+pandas
+scipy
+
+# Machine learning
+scikit-learn
+
+# Deep learning
+torch
+torchvision
+
+# Image processing
+Pillow
+openpyxl
+scikit-image
+
+# Visualization
+matplotlib
+seaborn
+
+# Notebook and progress utilities
+jupyter
+ipykernel
+tqdm
+
